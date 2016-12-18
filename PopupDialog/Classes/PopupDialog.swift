@@ -95,7 +95,8 @@ final public class PopupDialog: UIViewController {
         let viewController = PopupDialogDefaultViewController()
         viewController.titleText   = title
         viewController.messageText = message
-        viewController.image       = image
+		  let newSize = CGSize(width: UIScreen.main.bounds.width - 20 , height: 9000.0)
+        viewController.image       = image?.resizedImage(size: newSize, contentMode: .scaleAspectFit)
 
         // Call designated initializer
         self.init(viewController: viewController, buttonAlignment: buttonAlignment, transitionStyle: transitionStyle, gestureDismissal: gestureDismissal, completion: completion)
