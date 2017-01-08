@@ -6,7 +6,7 @@
 //  Copyright © 2016년 YK. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension UIImage {
 	// Resizes the image according to the given content mode, taking into account the

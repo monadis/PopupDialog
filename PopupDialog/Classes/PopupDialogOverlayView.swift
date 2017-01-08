@@ -23,7 +23,7 @@
 //  THE SOFTWARE.
 //
 
-import Foundation
+import UIKit
 
 /// The (blurred) overlay view below the popup dialog
 final public class PopupDialogOverlayView: UIView {

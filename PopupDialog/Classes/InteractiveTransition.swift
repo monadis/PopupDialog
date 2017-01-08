@@ -23,7 +23,7 @@
 //  THE SOFTWARE.
 //
 
-import Foundation
+import UIKit
 
 // Handles interactive transition triggered via pan gesture recognizer on dialog
 final internal class InteractiveTransition: UIPercentDrivenInteractiveTransition {
