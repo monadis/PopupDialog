@@ -93,7 +93,9 @@ final public class PopupDialog: UIViewController {
         let viewController = PopupDialogDefaultViewController()
         viewController.titleText   = title
         viewController.messageText = message
-		  viewController.image       = image
+		viewController.image       = image
+		
+		// Call designated initializer
         self.init(viewController: viewController, buttonAlignment: buttonAlignment, transitionStyle: transitionStyle, gestureDismissal: gestureDismissal, completion: completion)
     }
 
